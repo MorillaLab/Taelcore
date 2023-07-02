@@ -1,5 +1,5 @@
 # Taelcore
-Dimensionality Reduction Novel Technique
+Novel Dimensionality Reduction Technique
 
 We present a new approach to predict the risk of acute cellular rejection (ACR)
 after lung transplantation by using machine learning algorithms, such as Multilayer Perceptron
