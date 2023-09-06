@@ -12,3 +12,5 @@ we demonstrate that Taelcore’s topological improvements have a positive effect
 the majority of the machine learning algorithms used. By providing a new way to diagnose
 patients and detect complications early, this work contributes to improved clinical outcomes
 in lung transplantation.
+
+![Taelcore workflow](https://github.com/MorillaLab/Taelcore/blob/main/Figure_3.png)
