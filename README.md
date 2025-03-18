@@ -7,6 +7,9 @@
   <a href="https://github.com/MorillaLab/TopoTransformers/">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="">
   </a>
+  <a href="https://doi.org/10.1016/j.compbiomed.2024.107969"> 
+    <img src="https://img.shields.io/badge/Doi-10.3390/math11244916-blue" alt="">
+  </a>
   
 </p>
 
