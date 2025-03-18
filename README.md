@@ -11,7 +11,8 @@
     <img src="https://img.shields.io/badge/Doi-10.1016-blue" alt="">
   </a>
    <a href="https://www.piwheels.org/project/taelcore/"> 
-    <img src="https://img.shields.io/pypi/v/taelcore" alt="">
+    <img src="https://img.shields.io/pypi/v/taelcore" alt=""> <img src="https://img.shields.io/pypi/dm/taelcore" alt="">
+
   </a>
 </p>
 
