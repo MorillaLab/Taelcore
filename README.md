@@ -9,6 +9,10 @@
   </a>
   <a href="https://doi.org/10.1016/j.compbiomed.2024.107969"> 
     <img src="https://img.shields.io/badge/Doi-10.1016-blue alt="">
+  </a>
+   <a href="https://www.piwheels.org/project/taelcore/"> 
+    <img src="https://img.shields.io/pypi/l/:taelcore alt="">
+  </a>
 </p>
 
 Novel Dimensionality Reduction Technique
