@@ -35,3 +35,8 @@ in lung transplantation.
 A comprehensive comparison of the latent space representations obtained by our proposed method and several baseline techniques, namely Autoencoder, PCA, t-SNE, and UMAP, across different datasets. (a) Shapes Dataset: The latent space representations of the Shapes dataset are depicted for our method, Autoencoder, PCA, t-SNE, and UMAP. Our method not only effectively preserves the intrinsic structure but also out- performs the other techniques in terms of separation. This is evident from the distinct and well-separated clusters observed in our method’s representation. (b) Iris Dataset: The latent space representations of the Iris dataset are presented for our method, Autoencoder, PCA, t-SNE, and UMAP. Our method demonstrates a notably more linear separation between the classes compared to the other methods. This indicates its efficacy in capturing the essential discriminative information present in the dataset. (c) Lung Transplantation Dataset: The latent space representations of the lung transplantation dataset are illustrated for our method, Autoencoder, PCA, t-SNE, and UMAP. Our method exhibits a significant linear separation between the ACR and non-ACR groups of patients while maintaining a lower degree of sparsity compared to the alternative techniques.
 
 ![Taelcore representation learning](https://github.com/MorillaLab/Taelcore/blob/main/Figure_4_4.png)
+
+```ruby
+# bash
+# pip install taelcore
+```
