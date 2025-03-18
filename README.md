@@ -8,7 +8,7 @@
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="">
   </a>
   <a href="https://doi.org/10.1016/j.compbiomed.2024.107969"> 
-    <img src="https://img.shields.io/badge/doi.org/10.1016/j.compbiomed.2024.107969-blue" alt="">
+    <img src="https://img.shields.io/badge/doi.org/10.1016/mathj.compbiomed.2024.107969-blue" alt="">
   </a>
   
 </p>
