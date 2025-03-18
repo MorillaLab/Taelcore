@@ -8,7 +8,7 @@
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="">
   </a>
   <a href="https://doi.org/10.1016/j.compbiomed.2024.107969"> 
-    <img src="https://img.shields.io/badge/Doi-10.1016-blue alt="">
+    <img src="https://img.shields.io/badge/Doi-math10.1016-blue alt="">
 </p>
 
 Novel Dimensionality Reduction Technique
