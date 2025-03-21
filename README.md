@@ -1,4 +1,4 @@
-# Taelcore
+# TaelCore
 <div style="text-align: justity;">
 <p align="left">
   <a href="https://choosealicense.com/licenses/gpl-3.0/">
@@ -37,7 +37,7 @@ A comprehensive comparison of the latent space representations obtained by our p
 
 ![Taelcore representation learning](https://github.com/MorillaLab/Taelcore/blob/main/Figure_4_4.png)
 
-# Taelcore as a Python Package
+# TaelCore as a Python Package
 
 ```ruby
 # bash to install the package in a virtualenv
