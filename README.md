@@ -37,6 +37,8 @@ A comprehensive comparison of the latent space representations obtained by our p
 
 ![Taelcore representation learning](https://github.com/MorillaLab/Taelcore/blob/main/Figure_4_4.png)
 
+# Python Package
+
 ```ruby
 # bash to install the package in a virtualenv
 pip3 install taelcore
