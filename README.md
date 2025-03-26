@@ -30,7 +30,9 @@ A comprehensive comparison of the latent space representations obtained by our p
 ![Taelcore representation learning](https://github.com/MorillaLab/Taelcore/blob/main/Figure_4_4.png)
 
 # TaelCore Python Package
+#### Installation with `pip`
 
+The Python version of TaelCore can be installed by running the following from a terminal:
 ```ruby
 # bash to install the package in a virtualenv
 pip3 install taelcore
