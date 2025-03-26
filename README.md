@@ -1,20 +1,8 @@
 # TaelCore
-<div style="text-align: justity;">
-<p align="left">
-  <a href="https://choosealicense.com/licenses/gpl-3.0/">
-    <img src="https://img.shields.io/badge/License-GPLv3-green" alt="">
-  </a>
-  <a href="https://github.com/MorillaLab/TopoTransformers/">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="">
-  </a>
-  <a href="https://doi.org/10.1016/j.compbiomed.2024.107969"> 
-    <img src="https://img.shields.io/badge/Doi-10.1016-blue" alt="">
-  </a>
-   <a href="https://www.piwheels.org/project/taelcore/"> 
-    <img src="https://img.shields.io/pypi/v/taelcore" alt=""> <img src="https://img.shields.io/pypi/dm/taelcore" alt="">
+[![License](https://img.shields.io/badge/License-GPLv3-green)](https://choosealicense.com/licenses/gpl-3.0/)
+  
 
-  </a>
-</p>
+
 
 Novel Dimensionality Reduction Technique
 
