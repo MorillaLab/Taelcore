@@ -18,7 +18,8 @@
 
 Novel Dimensionality Reduction Technique
 
-[Gouiaa et al.  **Novel dimensionality reduction method, Taelcore, enhances lung transplantation risk prediction**. 2024. *Computers in Biology and Medicine*.]([https://www.sciencedirect.com/science/article/pii/S0010482524000532])
+[Gouiaa et al.  **Novel dimensionality reduction method, Taelcore, enhances lung transplantation risk prediction**. 2024. *Computers in Biology and Medicine*.](
+https://www.sciencedirect.com/science/article/pii/S0010482524000532)
 
 We present a new approach to predict the risk of acute cellular rejection (ACR)
 after lung transplantation by using machine learning algorithms, such as Multilayer Perceptron
