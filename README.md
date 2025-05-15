@@ -37,3 +37,24 @@ The Python version of TaelCore can be installed by running the following from a 
 # bash to install the package in a virtualenv
 pip3 install taelcore
 ```
+
+<!-- ============================================== -->
+<div align="left">
+  <h1 id="citation">🎈 Citation</h1>
+  <hr style="height: 3px; background: linear-gradient(90deg, #EF8E8D, #5755A3); border: none; border-radius: 3px;">
+</div>
+
+If you find TaelCore helpful, please cite us.
+
+```bibtex
+@article{Vomo-Donfack2024.08.02.606319,
+      title={S<sup>2</sup>-PepAnalyst: A Web Tool for Predicting Plant Small Signalling Peptides}, 
+      author={Vomo-Donfack, Kelly L. and Abaach, Mariem and Luna, Ana M. and Ginot, Grégory and Doblas, Verónica G. and Morilla, Ian},
+      year={2025},
+      eprint={https://www.biorxiv.org/content/early/2025/05/06/2024.08.02.606319.full.pdf},
+      doi = {10.1101/2024.08.02.606319},
+      publisher = {Cold Spring Harbor Laboratory},
+      url={https://www.biorxiv.org/content/early/2025/05/06/2024.08.02.606319},
+      journal = {bioRxiv}
+}
+```
