@@ -48,14 +48,14 @@ If you find TaelCore helpful, please cite us.
 
 ```bibtex
 @article{GOUIAA2024107969,
-title = {Novel dimensionality reduction method, Taelcore, enhances lung transplantation risk prediction},
-journal = {Computers in Biology and Medicine},
-volume = {169},
-pages = {107969},
-year = {2024},
-issn = {0010-4825},
-doi = {https://doi.org/10.1016/j.compbiomed.2024.107969},
-url = {https://www.sciencedirect.com/science/article/pii/S0010482524000532},
-author = {Fatma Gouiaa and Kelly L. Vomo-Donfack and Alexy Tran-Dinh and Ian Morilla}
+         title = {Novel dimensionality reduction method, Taelcore, enhances lung transplantation risk prediction},
+         journal = {Computers in Biology and Medicine},
+         volume = {169},
+         pages = {107969},
+         year = {2024},
+         issn = {0010-4825},
+         doi = {https://doi.org/10.1016/j.compbiomed.2024.107969},
+         url = {https://www.sciencedirect.com/science/article/pii/S0010482524000532},
+         author = {Fatma Gouiaa and Kelly L. Vomo-Donfack and Alexy Tran-Dinh and Ian Morilla}
 }
 ```
