@@ -34,8 +34,8 @@ A comprehensive comparison of the latent space representations obtained by our p
 
 The Python version of TaelCore can be installed by running the following from a terminal:
 ```ruby
-# bash to install the package in a virtualenv
-pip3 install taelcore
+# bash to install the latest version of the package in a virtualenv
+pip3 install taelcore == 1.3.1
 ```
 
 <!-- ============================================== -->
