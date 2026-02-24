@@ -1,7 +1,7 @@
 # TaelCore
 
 [![License](https://img.shields.io/badge/License-GPLv3-green)](https://choosealicense.com/licenses/gpl-3.0/)
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/MorillaLab/TopoTransformers/)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/MorillaLab/TopoAttention/)
 [![Doi](https://img.shields.io/badge/Doi-10.1016-blue)](https://doi.org/10.1016/j.compbiomed.2024.107969)
 [![Pywheels](https://img.shields.io/pypi/dm/taelcore)](https://www.piwheels.org/project/taelcore/)
 
