@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0e0a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#12101f;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bigblur">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <filter id="medblur">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <!-- Ambient glow pools -->
+  <ellipse cx="300" cy="350" rx="350" ry="220" fill="#8b5cf6" opacity="0.07" filter="url(#bigblur)"/>
+  <ellipse cx="1050" cy="300" rx="300" ry="200" fill="#06b6d4" opacity="0.07" filter="url(#bigblur)"/>
+
+  <!-- ====================================================== -->
+  <!-- RIGHT PANEL: dimensionality reduction visual metaphor  -->
+  <!-- High-dim cloud (left cluster) → low-dim embedded       -->
+  <!-- ====================================================== -->
+
+  <!-- High-dim scatter cloud (right background) -->
+  <g opacity="0.35">
+    <!-- Many scattered dots at varying opacities = "high-dim chaos" -->
+    <circle cx="820" cy="120" r="3" fill="#8b5cf6"/>
+    <circle cx="850" cy="155" r="2" fill="#06b6d4"/>
+    <circle cx="840" cy="195" r="3" fill="#8b5cf6"/>
+    <circle cx="870" cy="230" r="2" fill="#a78bfa"/>
+    <circle cx="810" cy="250" r="2" fill="#06b6d4"/>
+    <circle cx="895" cy="165" r="3" fill="#8b5cf6"/>
+    <circle cx="920" cy="120" r="2" fill="#06b6d4"/>
+    <circle cx="930" cy="210" r="3" fill="#a78bfa"/>
+    <circle cx="960" cy="145" r="2" fill="#8b5cf6"/>
+    <circle cx="955" cy="255" r="3" fill="#06b6d4"/>
+    <circle cx="985" cy="185" r="2" fill="#8b5cf6"/>
+    <circle cx="870" cy="290" r="3" fill="#a78bfa"/>
+    <circle cx="905" cy="310" r="2" fill="#8b5cf6"/>
+    <circle cx="940" cy="295" r="3" fill="#06b6d4"/>
+    <circle cx="970" cy="320" r="2" fill="#8b5cf6"/>
+    <circle cx="820" cy="340" r="3" fill="#a78bfa"/>
+    <circle cx="855" cy="370" r="2" fill="#06b6d4"/>
+    <circle cx="895" cy="355" r="3" fill="#8b5cf6"/>
+    <circle cx="925" cy="380" r="2" fill="#a78bfa"/>
+    <circle cx="965" cy="360" r="3" fill="#06b6d4"/>
+    <circle cx="1005" cy="240" r="2" fill="#8b5cf6"/>
+    <circle cx="1010" cy="290" r="3" fill="#06b6d4"/>
+    <circle cx="1015" cy="185" r="2" fill="#a78bfa"/>
+    <circle cx="1040" cy="155" r="3" fill="#8b5cf6"/>
+    <circle cx="1045" cy="230" r="2" fill="#06b6d4"/>
+    <circle cx="1055" cy="310" r="3" fill="#8b5cf6"/>
+    <circle cx="1070" cy="190" r="2" fill="#a78bfa"/>
+    <circle cx="1080" cy="260" r="3" fill="#06b6d4"/>
+    <circle cx="1090" cy="130" r="2" fill="#8b5cf6"/>
+    <circle cx="1110" cy="210" r="3" fill="#a78bfa"/>
+    <circle cx="1115" cy="310" r="2" fill="#06b6d4"/>
+    <circle cx="1130" cy="175" r="3" fill="#8b5cf6"/>
+    <circle cx="1140" cy="270" r="2" fill="#a78bfa"/>
+    <circle cx="1160" cy="140" r="3" fill="#06b6d4"/>
+    <circle cx="1165" cy="235" r="2" fill="#8b5cf6"/>
+    <circle cx="1170" cy="320" r="3" fill="#a78bfa"/>
+    <circle cx="1195" cy="195" r="2" fill="#06b6d4"/>
+    <circle cx="1200" cy="265" r="3" fill="#8b5cf6"/>
+    <circle cx="1210" cy="155" r="2" fill="#a78bfa"/>
+    <circle cx="1215" cy="345" r="3" fill="#06b6d4"/>
+  </g>
+
+  <!-- Label "high-dim" -->
+  <text x="1010" y="105" font-family="'Segoe UI', sans-serif" font-size="12"
+        fill="#94a3b8" text-anchor="middle" opacity="0.6">high-dim input</text>
+  <line x1="1010" y1="110" x2="1010" y2="122" stroke="#94a3b8" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Arrow: high-dim → TaelCore → embedding -->
+  <path d="M 800 250 Q 770 260 750 270" stroke="url(#accent)" stroke-width="2"
+        fill="none" marker-end="url(#arrowhead)" opacity="0.7"/>
+
+  <!-- TaelCore box in the middle -->
+  <rect x="680" y="220" width="115" height="50" rx="10"
+        fill="#1a1030" stroke="#8b5cf6" stroke-width="1.5" opacity="0.9"/>
+  <text x="737" y="248" font-family="'Segoe UI', sans-serif" font-size="14"
+        font-weight="700" fill="#c4b5fd" text-anchor="middle">TaelCore</text>
+  <text x="737" y="264" font-family="'Segoe UI', sans-serif" font-size="10"
+        fill="#94a3b8" text-anchor="middle">AE + TDA</text>
+
+  <!-- Arrow: TaelCore → embedding -->
+  <path d="M 680 245 Q 660 250 640 260" stroke="url(#accent2)" stroke-width="2"
+        fill="none" opacity="0.7"/>
+
+  <!-- Low-dim embedding: 3 well-separated, glowing clusters -->
+  <!-- Cluster 1 — cyan -->
+  <circle cx="550" cy="185" r="22" fill="#06b6d4" opacity="0.12" filter="url(#medblur)"/>
+  <circle cx="550" cy="185" r="10" fill="#06b6d4" opacity="0.5"/>
+  <circle cx="538" cy="175" r="5" fill="#67e8f9" opacity="0.8"/>
+  <circle cx="558" cy="192" r="4" fill="#06b6d4" opacity="0.9"/>
+  <circle cx="545" cy="200" r="4" fill="#22d3ee" opacity="0.7"/>
+  <circle cx="562" cy="173" r="3" fill="#67e8f9" opacity="0.7"/>
+  <circle cx="533" cy="192" r="3" fill="#06b6d4" opacity="0.6"/>
+
+  <!-- Cluster 2 — violet -->
+  <circle cx="590" cy="300" r="22" fill="#8b5cf6" opacity="0.12" filter="url(#medblur)"/>
+  <circle cx="590" cy="300" r="10" fill="#8b5cf6" opacity="0.5"/>
+  <circle cx="578" cy="290" r="5" fill="#a78bfa" opacity="0.8"/>
+  <circle cx="600" cy="308" r="4" fill="#8b5cf6" opacity="0.9"/>
+  <circle cx="583" cy="312" r="4" fill="#c4b5fd" opacity="0.7"/>
+  <circle cx="603" cy="288" r="3" fill="#a78bfa" opacity="0.7"/>
+  <circle cx="575" cy="308" r="3" fill="#8b5cf6" opacity="0.6"/>
+
+  <!-- Cluster 3 — pink -->
+  <circle cx="530" cy="395" r="22" fill="#ec4899" opacity="0.12" filter="url(#medblur)"/>
+  <circle cx="530" cy="395" r="10" fill="#ec4899" opacity="0.5"/>
+  <circle cx="518" cy="385" r="5" fill="#f9a8d4" opacity="0.8"/>
+  <circle cx="540" cy="403" r="4" fill="#ec4899" opacity="0.9"/>
+  <circle cx="523" cy="407" r="4" fill="#f472b6" opacity="0.7"/>
+  <circle cx="543" cy="383" r="3" fill="#f9a8d4" opacity="0.7"/>
+  <circle cx="515" cy="403" r="3" fill="#ec4899" opacity="0.6"/>
+
+  <!-- Label "low-dim embedding" -->
+  <text x="560" y="445" font-family="'Segoe UI', sans-serif" font-size="12"
+        fill="#94a3b8" text-anchor="middle" opacity="0.6">low-dim embedding</text>
+
+  <!-- Cluster labels -->
+  <text x="578" y="175" font-family="'Segoe UI', sans-serif" font-size="11"
+        fill="#67e8f9" opacity="0.8">Class A</text>
+  <text x="615" y="300" font-family="'Segoe UI', sans-serif" font-size="11"
+        fill="#c4b5fd" opacity="0.8">Class B</text>
+  <text x="557" y="393" font-family="'Segoe UI', sans-serif" font-size="11"
+        fill="#f9a8d4" opacity="0.8">Class C</text>
+
+  <!-- ====================================================== -->
+  <!-- LEFT PANEL: text content                               -->
+  <!-- ====================================================== -->
+
+  <!-- Vertical accent bar -->
+  <rect x="62" y="90" width="5" height="180" rx="3" fill="url(#accent)"/>
+
+  <!-- Title -->
+  <text x="88" y="150" font-family="'Segoe UI', system-ui, -apple-system, sans-serif"
+        font-size="76" font-weight="800" fill="white" letter-spacing="-2">
+    TaelCore
+  </text>
+
+  <!-- Subtitle -->
+  <text x="90" y="196" font-family="'Segoe UI', system-ui, sans-serif"
+        font-size="17" fill="#94a3b8" letter-spacing="0.2">
+    Topological Autoencoder · Best Linear Combination
+  </text>
+  <text x="90" y="220" font-family="'Segoe UI', system-ui, sans-serif"
+        font-size="17" fill="#94a3b8">
+    for Optimal Reduction of Embeddings
+  </text>
+
+  <!-- Divider -->
+  <rect x="88" y="240" width="460" height="2" rx="1" fill="url(#accent)"/>
+
+  <!-- Stat boxes -->
+  <rect x="88" y="262" width="120" height="74" rx="10"
+        fill="#ffffff" fill-opacity="0.04" stroke="#8b5cf6" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="148" y="296" font-family="'Segoe UI', system-ui, sans-serif"
+        font-size="26" font-weight="700" fill="#a78bfa" text-anchor="middle">pip</text>
+  <text x="148" y="320" font-family="'Segoe UI', system-ui, sans-serif"
+        font-size="12" fill="#94a3b8" text-anchor="middle">installable</text>
+
+  <rect x="222" y="262" width="120" height="74" rx="10"
+        fill="#ffffff" fill-opacity="0.04" stroke="#06b6d4" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="282" y="296" font-family="'Segoe UI', system-ui, sans-serif"
+        font-size="26" font-weight="700" fill="#22d3ee" text-anchor="middle">v1.3.1</text>
+  <text x="282" y="320" font-family="'Segoe UI', system-ui, sans-serif"
+        font-size="12" fill="#94a3b8" text-anchor="middle">latest</text>
+
+  <rect x="356" y="262" width="120" height="74" rx="10"
+        fill="#ffffff" fill-opacity="0.04" stroke="#ec4899" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="416" y="293" font-family="'Segoe UI', system-ui, sans-serif"
+        font-size="18" font-weight="700" fill="#f472b6" text-anchor="middle">CiBM</text>
+  <text x="416" y="313" font-family="'Segoe UI', system-ui, sans-serif"
+        font-size="12" fill="#94a3b8" text-anchor="middle">2024</text>
+  <text x="416" y="328" font-family="'Segoe UI', system-ui, sans-serif"
+        font-size="10" fill="#94a3b8" text-anchor="middle">peer-reviewed</text>
+
+  <rect x="490" y="262" width="120" height="74" rx="10"
+        fill="#ffffff" fill-opacity="0.04" stroke="#8b5cf6" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="550" y="296" font-family="'Segoe UI', system-ui, sans-serif"
+        font-size="26" font-weight="700" fill="#a78bfa" text-anchor="middle">3</text>
+  <text x="550" y="320" font-family="'Segoe UI', system-ui, sans-serif"
+        font-size="12" fill="#94a3b8" text-anchor="middle">datasets</text>
+
+  <!-- Install snippet box -->
+  <rect x="88" y="358" width="385" height="46" rx="8"
+        fill="#0d0d1a" stroke="#8b5cf6" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="104" y="374" font-family="'Courier New', monospace" font-size="12"
+        fill="#94a3b8">$</text>
+  <text x="118" y="374" font-family="'Courier New', monospace" font-size="13"
+        fill="#a78bfa">pip install</text>
+  <text x="218" y="374" font-family="'Courier New', monospace" font-size="13"
+        fill="#22d3ee">taelcore</text>
+  <text x="118" y="394" font-family="'Courier New', monospace" font-size="12"
+        fill="#475569">from taelcore import Taelcore</text>
+
+  <!-- Tag pills -->
+  <g font-family="'Segoe UI', system-ui, sans-serif" font-size="13">
+    <rect x="88" y="425" width="105" height="28" rx="14"
+          fill="#8b5cf6" fill-opacity="0.12" stroke="#8b5cf6" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="140" y="444" fill="#c4b5fd" text-anchor="middle">🌀 TDA / Topo</text>
+
+    <rect x="204" y="425" width="120" height="28" rx="14"
+          fill="#06b6d4" fill-opacity="0.12" stroke="#06b6d4" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="264" y="444" fill="#67e8f9" text-anchor="middle">🧠 Autoencoder</text>
+
+    <rect x="335" y="425" width="125" height="28" rx="14"
+          fill="#ec4899" fill-opacity="0.12" stroke="#ec4899" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="398" y="444" fill="#f9a8d4" text-anchor="middle">🫁 Lung Transplant</text>
+
+    <rect x="470" y="425" width="90" height="28" rx="14"
+          fill="#8b5cf6" fill-opacity="0.12" stroke="#8b5cf6" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="515" y="444" fill="#c4b5fd" text-anchor="middle">📦 PyPI</text>
+  </g>
+
+  <!-- Bottom label -->
+  <text x="88" y="560" font-family="'Segoe UI', system-ui, sans-serif"
+        font-size="14" fill="#475569">
+    MorillaLab · Computers in Biology and Medicine, 2024 · GPL-3.0
+  </text>
+  <text x="88" y="582" font-family="'Segoe UI', system-ui, sans-serif"
+        font-size="13" fill="#374151">
+    Gouiaa · Vomo-Donfack · Tran-Dinh · Morilla
+  </text>
+</svg>
