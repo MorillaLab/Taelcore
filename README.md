@@ -78,21 +78,21 @@ Input Data (high-dim)
        │
        ▼
 ┌─────────────┐       ┌──────────────────────┐
-│ Autoencoder │──────▶│  Latent Embedding (Z) │
+│ Autoencoder │──────▶│  Latent Embedding (Z)│
 └─────────────┘       └──────────────────────┘
                                 │
                                 ▼
                   ┌─────────────────────────┐
-                  │ Topological Feature      │
-                  │ Extraction (TDA / PH)    │
-                  │  Betti numbers,          │
-                  │  persistence diagrams    │
+                  │ Topological Feature     │
+                  │ Extraction (TDA / PH)   │
+                  │  Betti numbers,         │
+                  │  persistence diagrams   │
                   └─────────────────────────┘
                                 │
                                 ▼
                   ┌─────────────────────────┐
-                  │ Best Linear Combination  │
-                  │ of Z + Topological Feats │
+                  │ Best Linear Combination │
+                  │ of Z + Topological Feats│
                   └─────────────────────────┘
                                 │
                                 ▼
