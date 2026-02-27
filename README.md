@@ -65,7 +65,7 @@ TaelCore produces **distinctly separated, linearly decodable clusters** compared
 | t-SNE | Good | Good | High |
 | UMAP | Good | Moderate | Moderate–High |
 
-TaelCore's topological improvements positively affect the **majority of downstream ML algorithms** tested (MLP, SVM, Random Forest, kNN).
+TaelCore's topological improvements positively affect the **majority of downstream ML algorithms** tested (Autoencoder, MLP, SVM, Random Forest, kNN).
 
 ---
 
